@@ -1,0 +1,39 @@
+*{
+  font-family: poppins;
+}
+
+.heading{
+  text-align: center;
+}
+
+.heading h1{
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 5px;
+  margin-top: 50px;
+  color: hsl(212, 6%, 44%);
+}
+
+.heading h2{
+  font-weight: bold;
+  margin: 5px;
+  color: hsl(234, 12%, 34%);
+}
+
+.heading p{
+  color: hsl(212, 6%, 44%);
+}
+
+.grid-container{
+  display: grid;
+  gap: 3rem;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+}
+
+.supervisor{
+  background-color: hsl(0, 0%, 100%);
+  
+}
