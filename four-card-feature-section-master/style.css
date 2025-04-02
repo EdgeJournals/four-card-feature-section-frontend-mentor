@@ -2,6 +2,9 @@
   font-family: poppins;
 }
 
+body{
+  background-color: hsl(0, 0%, 100%);
+}
 .heading{
   text-align: center;
 }
@@ -26,14 +29,50 @@
 
 .grid-container{
   display: grid;
-  gap: 3rem;
-  grid-template-rows: 1fr 1fr 1fr;
+  gap: 10px;
   grid-template-columns: 1fr 1fr 1fr;
-  align-items: center;
   justify-content: center;
+  align-content: center;
+  margin: 0 auto;
+  max-width: 920px;
+  margin-top: 30px;
 }
-
 .supervisor{
   background-color: hsl(0, 0%, 100%);
-  
+  border: 0 solid;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 hsl(212, 6%, 44%);
+  width: 300px;
+  border-top: 3px solid hsl(180, 62%, 55%);
+  padding: 20px;
+}
+
+.team-builder{
+  background-color: hsl(0, 0%, 100%);
+  border: 0 solid;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 hsl(212, 6%, 44%);
+  width: 300px;
+  border-top: 3px solid hsl(0, 78%, 62%);
+  padding: 20px;
+}
+
+.karma{
+  background-color: hsl(0, 0%, 100%);
+  border: 0 solid;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 hsl(212, 6%, 44%);
+  width: 300px;
+  border-top: 3px solid hsl(34, 97%, 64%);
+  padding: 20px;
+}
+
+.calculator{
+  background-color: hsl(0, 0%, 100%);
+  border: 0 solid;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 hsl(212, 6%, 44%);
+  width: 300px;
+  border-top: 3px solid hsl(212, 86%, 64%);
+  padding: 20px;
 }
