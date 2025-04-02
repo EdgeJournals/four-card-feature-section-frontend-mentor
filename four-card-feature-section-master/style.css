@@ -90,6 +90,10 @@ body{
   align-self: center;
 }
 
+footer{
+  text-align: center;
+}
+
 @media(max-width:600px) {
   body{
     font-family: Poppins;
